@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 var authenticate = require('../authenticate');
-
+ 
 // Get access to the promotions.js file under the models folder.
 const Promotions = require('../modals/promotions');
 const promoRouter = express.Router();
